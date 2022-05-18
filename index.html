@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Testes</title>
+</head>
+<body>
+    <main>
+        <div id="cabeça">
+            <h1>Pagina dedicada a testes</h1>
+        </div>
+        <div id="container">
+            <h2>Tabelas</h2>
+            <table>
+                <tr>
+                    <th>Código</th>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                </tr>
+                <tr>
+                    <td>001</td>
+                    <td>CPU</td>
+                    <td>R$ 3.000,00</td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Teclado</td>
+                    <td>R$ 200,00</td>
+                </tr>
+                <tr>
+                    <td>003</td>
+                    <td>Monitor</td>
+                    <td>R$ 500,00</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">Desconto: </th>
+                    <td colspan="2">CUPOM 1: R$ 20</td>
+                </tr>
+                <tr>
+                    <td colspan="2"> CUPOM 2: R$ 30</td>
+                </tr>
+            </table>
+        </div>
+        <div id="login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="inputform">
+                    <label for="User">Usuário: </label>
+                    <input type="text" name="user" placeholder="Seu nome"><br>
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" placeholder="Seu email"><br>
+                    <label for="password">Senha</label>
+                    <input type="password" name="password" placeholder="Sua senha"><br>
+                    <input class="botão" type="button" value="Entrar">
+                </div>
+            </form>
+        </div>
+        <div id="Cadastro">
+            <h2>Cadastre-se</h2>
+            <form action="#">
+                <div class="inputform">
+                    <label for="name">Nome: </label>
+                    <input type="text" placeholder="Nome completo"> <br>
+                    <input type="radio" value="m" name="sexo">
+                    <label for="m">Masculino</label> <br>
+                    <input type="radio" value="f" name="sexo">
+                    <label for="f">Feminino</label> <br>
+                    <label for="estados">Estado onde nasceu: </label>
+                    <select name="Estados"> <br>
+                        <option value="sp">SP</option>
+                        <option value="RJ">RJ</option>
+                        <option value="CE">CE</option>
+                    </select> <br>
+                    <label for="interesses">Interesses: </label>
+                    <input type="checkbox" name="esportes"> Futebol <br>
+                    <input type="checkbox" name="esportes"> Futsal <br>
+                    <input type="checkbox" name="esportes"> Vólei <br> <br>
+                    <label for="email">Seu email: </label>
+                    <input type="email" name="email" placeholder="Seu email"> <br>
+                    <label for="password">Sua nova senha: </label>
+                    <input type="password" name="senha" placeholder="Nova senha"> <br>
+                    <input type="button" class="botão" value="Cadastrar" id="">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        Todos os direitos reservados. &copy;
+    </footer>
+</body>
+</html>
